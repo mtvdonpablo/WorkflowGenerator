@@ -1,6 +1,6 @@
 # UiPath XAML Workflow Generator
 
-A web app that converts plain-English process descriptions into valid UiPath Studio XAML — eliminating the repetitive scaffolding work that slows down RPA development.
+A web app that uses natural language processing to convert plain-English  descriptions into valid UiPath Studio XAML — eliminating the repetitive scaffolding work that slows down RPA development.
 
 ## Overview
 
@@ -112,7 +112,3 @@ src/
     ├── prompts.js               # Gemini system prompt (activity rules + output format)
     └── BoilerPlate.js           # UiPath Activity/Sequence XML wrappers
 ```
-
-## Why This Exists
-
-UiPath Studio's drag-and-drop interface is powerful but slow for scaffolding. This tool is built for RPA developers who know what activities they need and just want to skip the manual setup — especially useful when building repetitive or boilerplate-heavy workflows.
