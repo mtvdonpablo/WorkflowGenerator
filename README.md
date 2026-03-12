@@ -4,7 +4,7 @@ A web app that converts plain-English process descriptions into valid UiPath Stu
 
 ## Overview
 
-RPA developers spend a significant amount of time manually dragging and arranging activities in UiPath Studio before any real logic is configured. This tool skips that step entirely: describe your automation steps in plain text, and get back a structured, pasteable XAML file ready to import into UiPath Studio.
+RPA developers spend a significant amount of time manually dragging and arranging activities in UiPath Studio before any real logic is configured. This tool skips that step entirely: describe your automation steps in plain text, and get back a structured, pasteable XAML file ready to import into Visual Studio Code.
 
 The generated XAML follows UiPath's activity nesting rules — UI interactions are wrapped in `NApplicationCard` scope containers, sequences are properly structured, and every `IdRef` is unique — so developers can paste it directly and focus on configuring selectors and runtime values instead of building structure from scratch.
 
